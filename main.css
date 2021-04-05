@@ -1,19 +1,6 @@
-.contenedor{
-    display: flex;
-    height: 50vh;
-}
 
 .meals{
-    display: flex;
     margin-bottom: 0px !important;
-    margin-right: 10px;
-    flex: 1 1 0;
 }
 
-.meals:last-child{
-    align-self: flex-end;
-}
 
-.orders{
-    flex: 1 1 0;
-}

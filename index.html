@@ -11,30 +11,30 @@
 </head>
 
 <body>
-<div class="contenedor">
-    
-    <div class="meals box">
+<div class="contenedor columns mt-2 mx-3">
+
+    <div class="meals box column mt-3 mr-3">
         <p class="menu-label">Comidas disponibles</p>
-        <ul class="menu-list">
-            <a>hola</a>
-            <a>hola</a>
+        <ul id="meals-list" class="menu-list">
+            <a>Cargando...</a>
         </ul>
 
-        <div class="button">Enviar</div>
+        <button id="btn-enviar" class="button" disabled>Enviar</button>
 
     </div>
-    <div class="orders box">
+    <div class="orders box column mt-3">
         <p class="menu-label">Ordenes</p>
 
-        <ul class="menu-list">
-            <a>hola</a>
+        <ul id="orders-list" class="menu-list">
+            <a class="uwu">hola <button class="button is-small">Descripcion</button></a>
+            
         </ul>
 
     </div>
 
 </div>
 
-
+<script src="main.js"></script>
 </body>
 
 </html>
