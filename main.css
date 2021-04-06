@@ -2,5 +2,9 @@
 .meals{
     margin-bottom: 0px !important;
 }
-
-
+a{
+    overflow: auto;
+}
+.desc{
+    float: right;
+}
